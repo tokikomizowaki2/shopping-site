@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* pc_design.css ver1.01 : Written by syam 2016.08.xx 記 */
+
+#SP_MENU{
+	display:none;
+}
+#PC_MENU{
+	display:block !important;
+}
+#LOGO img{
+	width:141px;
+}
+
+/* header 設定 */
+header{
+	padding:20px 0 0 !important;
+}
+/* ヘッダナビの設定 */
+header ul{
+	float:right;
+	padding:17px 0 0;
+}
+header li{
+	display:inline-block;
+	font-weight: bold;
+	margin:0 4px;
+}
+header li,header li *{
+	vertical-align: bottom;
+}
+.social_link{
+	font-size:2.2rem !important;
+}
+#PC_MENU li span.sp_menu_txt{
+	display:none;
+}
+#PC_MENU li span.pc_menu_txt{
+	display:block;
+}
+
+/* 変化途中のナビに関する設定 */
+@media (max-width: 749px){
+	header ul{
+		padding:0;
+	}
+}
+
+/* Footerの設定 */
+#PAGE_TOP{
+	text-align: right;
+}
+
+/* 検索エンジン部分 */
+#SEARCH_ENGINE label{
+	font-size:1.3rem;
+	font-weight:bold;
+	color:#887f69;
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* sp_design.css ver1.01 : Written by syam 2016.08.xx 記 */
+
+#PC_MENU{
+	display:none;
+}
+#LOGO img{
+	width:110px;
+}
+
+/* header部分の設定 */
+#LOGO{
+	width:100%;
+	text-align: center;
+}
+#LOGO img{
+	margin-top:15px;
+}
+/* ヘッダナビの設定 */
+#SP_MENU{
+	text-align: center;
+}
+#SP_MENU li{
+	display:inline-block;
+	cursor: pointer;
+	margin:0 4px;
+	font-size: 2.4rem;
+}
+#SP_MENU li,#SP_MENU li *{
+	vertical-align: bottom;
+}
+
+/* ハンバーガー内の隠しメニュー部分の設定 */
+#PC_MENU{
+	background:#ff6d77;
+	padding:10px;
+}
+#PC_MENU li{
+	list-style: none;
+	font-weight:normal;
+	border-bottom:1px solid #fff;
+}
+#PC_MENU li:nth-child(4){
+	border: none;
+	margin-bottom:-10px;
+}
+#PC_MENU li span.pc_menu_txt{
+	display:none;
+}
+#PC_MENU li span.sp_menu_txt{
+	display:block;
+}
+#PC_MENU a{
+	display: block;
+	padding-bottom:10px;
+	color:#fff;
+}
+.social_link{
+	display: none;
+}
+/* PageTopボタンの設定 */
+#PAGE_TOP{
+	text-align: center;
+}
+
+/* Footerナビの設定 */
+footer li{
+	margin:0 1px;
+}
+
+/* 検索エンジン部分の設定 */
+#SEARCH_ENGINE h4{
+	display:none;
+}
+
+/* ABOUT & SHOP INFO 部分の設定 */
+.sub_pict{
+	width:40%;
+	padding:15px 3%;
+	float:left;
+}
+.sub_text{
+	padding:10px 2%;
+	width:50%;
+	float:right;
+}
+.more_button{
+	text-align:left;
+}

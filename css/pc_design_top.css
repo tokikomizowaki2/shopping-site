@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* pc_design_top.css ver1.01 : Written by syam 2016.08.xx 記 */
+/* TopPage(index.html)限定の指定を記載 */
+
+/* ItemList */
+.item_list li{
+	width:33.3%;
+}
+
+/* Shopping Guide */
+.guide_box{
+	width:50%;
+}
